@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "port": 3306,
+    "password": "130613",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00"
+  },
+  "test": {
+    "username": "root",
+    "password": "sure",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00"
+  },
+  "production": {
+    "username": "root",
+    "password": "130613",
+    "database": "test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+08:00"
+  }
+}
