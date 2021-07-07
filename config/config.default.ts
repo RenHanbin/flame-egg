@@ -1,7 +1,6 @@
 import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 
 import { Result } from '../app/util/result';
-import { tokenSecret } from '../key';
 
 export default (appInfo: EggAppInfo) => {
   const config: PowerPartial<EggAppConfig> = {
@@ -56,10 +55,6 @@ export default (appInfo: EggAppInfo) => {
   config.cors = {
     origin: '*', // 跨任何域
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS', // 被允许的请求方式
-  };
-
-  exports.passportJwt = {
-    secret: tokenSecret,
   };
 
   // the return config will combines to EggAppConfig
