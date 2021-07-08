@@ -19,14 +19,6 @@ const plugin: EggPlugin = {
     enable: true,
     package: 'egg-cors',
   },
-  passport: {
-    enable: true,
-    package: 'egg-passport',
-  },
-  passportJwt: {
-    enable: true,
-    package: 'egg-passport-jwt',
-  },
 };
 
 export default plugin;
